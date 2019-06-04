@@ -1,0 +1,22 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A friend finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesonC/FriendFinder.git"
+  },
+  "author": "Jameson Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesonC/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/JamesonC/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
