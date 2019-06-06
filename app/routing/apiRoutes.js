@@ -5,7 +5,6 @@
 // ===============================================================================
 
 var friendsData = require("../data/friends");
-var friends = [];
 
 
 // ===============================================================================
@@ -36,7 +35,7 @@ module.exports = function (app) {
         // It will do this by sending out the value "true" have a table
         // req.body is available since we're using the body parsing middleware
         
-        friends.push(req.body);
+        friendsData.push(req.body);
         res.json(true);
 
         // if (friendsData.length < 5) {
